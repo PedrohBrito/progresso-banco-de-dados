@@ -13,3 +13,4 @@ CREATE TABLE artistas (
 INSERT INTO artistas (nome, tipo, membros, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo) 
 VALUES
 ('Bruno Mars', 'Solo', 1, 'Pop', 'EUA', '2002', 'Die With a Smile', TRUE);
+
