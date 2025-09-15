@@ -10,3 +10,8 @@ CREATE TABLE artistas (
     ativo BOOLEAN DEFAULT TRUE,
 );
 
+INSERT INTO artistas (nome, tipo, membros, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo) 
+VALUES
+('Coldplay', 'Banda', 4, 'Pop', 'Reino Unido', '1996', 'Viva La Vida', TRUE);
+('Bruno Mars', 'Solo', 1, 'Pop', 'EUA', '2002', 'Die With a Smile', TRUE);
+
