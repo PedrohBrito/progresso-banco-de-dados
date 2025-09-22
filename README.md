@@ -25,10 +25,10 @@ CREATE TABLE usuarios (
     username VARCHAR(50),
     email VARCHAR(100),
     pontos INT DEFAULT 0,
-    data_cadastro DATE
+    daata_cadastro DATE
 );
 
-INSERT INTO usuarios [username, email, pontos, data_cadastro] VALUES 
+INSERT INTO usuarios (username, email, pontos, daata_cadastro) VALUES 
 ('NoobMaster', 'noob@gameflix.com', 1500, '2024-01-15'),
 ('GamerGirl23', 'gamer23@email.com', 2800, '2024-01-18'),
 ('ProPlayer99', 'pro99@email.com', 3500, '2024-01-20'),
