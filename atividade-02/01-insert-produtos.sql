@@ -32,5 +32,3 @@ INSERT INTO produtos (nome, marca, preco, categoria, estoque) VALUES
 ('Spray Protetor Térmico L''incroyable Blowdry', 'Kérastase', 195.00, 'Cabelos', 100);
 
 SELECT * FROM produtos;
-
-UPDATE produtos SET preco = 20/100 * preco;

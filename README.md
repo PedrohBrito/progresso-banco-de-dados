@@ -18,7 +18,7 @@ CREATE DATABASE gameflixdatabase;
 
 \c gameflixdatabase;
 
-\| cls;
+\! cls;
 
 CREATE TABLE usuarios (
     id SERIAL PRIMARY KEY,
